@@ -10,7 +10,7 @@ function Login(Props) {
   const history = useHistory();
 
   function handlePesquisa() {
-    axios.get('http://localhost:8000/loginAdmin').then( response => {
+    axios.get('https://github.com/walker015/mulhermoda/blob/main/loginAdmin.json').then( response => {
       const login = response.data
       const loginAdmin = []
       login.map((logins) => { 
