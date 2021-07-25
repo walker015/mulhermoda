@@ -24,7 +24,7 @@ function Login(Props) {
       })
       
       if (JSON.stringify(loginAdmin[0]) === JSON.stringify(usuario) && JSON.stringify(passwordAdmin[0]) === JSON.stringify(senha)) {
-        history.push('/')
+        history.push('/Home')
       } else {
         window.alert('LOGIN/SENHA INCORRETA')
       }
