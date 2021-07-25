@@ -10,7 +10,7 @@ function Login(Props) {
   const history = useHistory();
 
   function handlePesquisa() {
-    axios.get('https://github.com/walker015/mulhermoda/blob/main/loginAdmin.json').then( response => {
+    axios.get('https://my-json-server.typicode.com/walker015/mulhermoda/loginAdmin').then( response => {
       const login = response.data
       const loginAdmin = []
       login.map((logins) => { 
